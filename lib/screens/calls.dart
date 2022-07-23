@@ -21,6 +21,7 @@ class _CallsState extends State<Calls> {
             ),
             ListTile(
               leading: CircleAvatar(
+                  backgroundColor: Colors.grey,
                 maxRadius: 25,
                 backgroundImage: NetworkImage(callData[index].imageUrl),
               ),

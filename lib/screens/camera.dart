@@ -11,6 +11,7 @@ class Camera extends StatefulWidget {
   State<Camera> createState() => _CameraState();
 }
 
+
 class _CameraState extends State<Camera> {
   File? _image;
   @override
