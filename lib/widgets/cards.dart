@@ -15,6 +15,7 @@ class Cards extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: CircleAvatar(
+        backgroundColor: Colors.grey,
         maxRadius: 25,
         foregroundColor: Colors.grey,
         backgroundImage: NetworkImage(imageurl),
